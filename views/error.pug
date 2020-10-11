@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+  section.error
+    h1= `${error.message} - Status: ${error.status}`
+
+    .error-stack
+      pre.stack-trace= error.stack
+    br
+
+    a.button(href='/') Go Home

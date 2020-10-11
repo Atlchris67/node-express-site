@@ -1,3 +1,8 @@
+body {
+  /* Bonus */
+  background-color: #C0C0C0;
+}
+
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -46,13 +51,28 @@ a:hover{
   color: #111;
 }
 
+/* Bonus */
+.error {
+  padding-left: 20px;
+}
+
+/* Adapted from the Express Basics course project files */
+.error-stack {
+  text-align: left;
+  color: #ff6347;
+  background-size: 100% 2.5em;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
 .image{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  /* Bonus */
+  box-shadow: 5px 10px #000080;
   line-height: 0;
 }
 

@@ -1,0 +1,59 @@
+{"projects":
+    [
+      {"id": 0,
+         "project_name": "Public API Requests",
+         "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript and jQuery, I've created an employee directory by communicating with a third-party API (Application Programming Interface).",
+         "technologies": ["JavaScript", "jQuery", "JSON", "XML", "API", "HTML", "CSS"],
+         "live_link": "https://atlchris67.github.io/public-api-requests/public-api-requests/",
+         "github_link": "https://github.com/Atlchris67/public-api-requests/",
+         "project_thumbnail": "static/images/demo-0-preview.png",
+         "image_urls": ["/static/images/demo-0-a.png", "/static/images/demo-0-b.png","/static/images/demo-0-c.png"]
+        },
+        {"id": 1,
+         "project_name": "Machine Learning",
+         "description": "This is a collaborative final project as part the Georgia Tech Data Science and Analytics Bootcamp. I was a member of a five person team that used python, flask and scikit learn to develop a diabeties predictor. We compared four prediction models to determine the most accurate method. I developed the prediction form to determine an individuals risk factor.",
+         "technologies": ["JavaScript", "Python","Flask", "Pandas", "Scikit-Learn","Heroku", "HTML", "CSS"],
+         "live_link": "https://jssicc-finalproject.herokuapp.com/",
+         "github_link": "https://github.com/Atlchris67/FinalProject",
+         "project_thumbnail": "static/images/demo-1-preview.png",
+         "image_urls": ["/static/images/demo-1-a.png", "/static/images/demo-1-b.png","/static/images/demo-1-c.png"]
+        },
+        {"id": 2,
+         "project_name": "OOP Game",
+         "description": "A browser-based, object oriented, word guessing game: 'Phrase Hunter.' Using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can you guess the phrase before you run out of attempts?",
+         "technologies": [ "HTML", "CSS","JavaScript", "jQuery"],
+         "live_link": "https://atlchris67.github.io/oop-game/",
+         "github_link": "https://github.com/kemmerle/treehouse-unit-four",
+         "project_thumbnail": "static/images/demo-2-preview.png",
+         "image_urls": ["/static/images/demo-2-a.png", "/static/images/demo-2-b.png","/static/images/demo-2-c.png"]
+        },
+        {"id": 3,
+         "project_name": "Interactive Form",
+         "description": "This project enhances an interactive registration form for a fictional conference called 'FullStack Conf' using the jQuery library. The form is made to be more user friendly by adding customized and conditional behavior and interactivity. It also validates user input and provides helpful error messages when the user enters invalid information into the form fields.",
+         "technologies": ["JavaScript", "jQuery", "HTML", "CSS"],
+         "live_link": "https://atlchris67.github.io/interactive-form/",
+         "github_link": "https://github.com/Atlchris67/interactive-form",
+         "project_thumbnail": "static/images/demo-3-preview.png",
+         "image_urls": ["/static/images/demo-3-a.png", "/static/images/demo-3-b.png"]
+        },
+        {"id": 4,
+         "project_name": "List Pagination and Filtering",
+         "description": "Using my favorite flavor of Javascript (vanilla) to display a long list of items on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to display a handful of items on one page and provide navigation to jump to a list of more items. I wrote used JavaScript in this project to divide a long list into a series of pages and improve the user experience of a web page.",
+         "technologies": ["JavaScript", "HTML", "CSS"],
+         "live_link": "https://atlchris67.github.io/list-pagination-and-filtering/",
+         "github_link": "https://github.com/Atlchris67/list-pagination-and-filtering",
+         "project_thumbnail": "static/images/demo-4-preview.png",
+         "image_urls": ["/static/images/demo-4-a.png", "/static/images/demo-4-b.png"]
+        },
+        {"id": 5,
+         "project_name": "A Random Quote Generator",
+         "description": "Practicing my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button",
+         "technologies": ["JavaScript", "HTML", "CSS"],
+         "live_link": "https://atlchris67.github.io/Unit1_Project/app/",
+         "github_link": "https://github.com/Atlchris67/Unit1_Project",
+         "project_thumbnail": "static/images/demo-5-preview.png",
+         "image_urls": ["/static/images/demo-5-a.png"]
+        }
+        
+    ]
+}

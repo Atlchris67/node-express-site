@@ -1,47 +1,69 @@
 extends layout.pug
 
-block content 
+block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Add your name.
-        h1 Name
+        h1 Chris Simmons
 
-        //- Feel free personalize the title below
-        p.lead.text-light
-          | Full Stack JavaScript Developer.
+        p.lead.text-light Web Developer.
 
-        //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
-          p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-      .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Skills
+          p Results-driven development manager with diverse technical and industry experience. Highly adaptive with a proven track record of delivery and providing meaningful solutions in fast-paced and technically challenging environments.
+          ul
+          
+            h3 Company: Quikrete 
+              p Web Development Manager <br/>
+                | Dates: Jan 2020 – Present<br/>
+                | Location: Duluth, Georgia
+            h3 Company: PureRED
+              p Web Development Manager <br/>
+                | Dates: Jan 2016 – Jan 2020<br/>
+                | Location: Stone Mountain, Georgia
+              p Senior Developer <br/>
+                | Dates: Nov 2015 – Jan 2016 <br/>
+                | Location: Stone Mountain
+            h3 Company: Luckie  Company
+              p Senior Developer <br/>
+                | Dates EmployedFeb 2014 – Nov 2015 <br/>
+                | Location: Stone Mountain
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Languages
+
+        ul
+          li C#
+          li Python
+          li R
+          li JavaScript
+          li HTML
+          li CSS
+          
+        h6 Database
+
+        ul
+          li Microsoft SQL
+          li MySQL
+          li PostGRES
+          
+        h6 Technologies
+
         ul
           li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
+          li JQuery
+          li D3
+          li Tableau
+
         h6 Contact Info
 
-        //- Add your own contact info
         ul
-          li 555-555-1234
-          li email@email.com
+          li 
+            a(href=`mailto:atlchris@gmail.com`) Send an email 
+        a.button.expanded(href='https://join.skype.com/invite/ClcCvU7XF2ic') Skype    
+        a.button.expanded(href='https://www.linkedin.com/in/atlchris/') LinkedIn
+        a.button.expanded(href='https://github.com/atlchris67') GitHub
+    nav.grid-container.portfolio-breadcrumb
 
-        //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
-  
