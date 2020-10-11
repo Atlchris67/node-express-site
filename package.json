@@ -4,7 +4,7 @@
   "description": "Project 6 of the Treehouse Full Stack Javascipt Curriculum",
   "main": "app.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "test",
     "start": "node app.js"
   },
   "repository": {
