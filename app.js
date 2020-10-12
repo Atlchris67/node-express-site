@@ -1,5 +1,15 @@
 //Imports the express module
 const express = require('express');
+const express = require('express')
+const path = require('path')
+const PORT = process.env.PORT || 5000
+
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs')
+  .get('/', (req, res) => res.render('pages/index'))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 //A top-level function exported by the express module
 //Adapted from: https://freshman.tech/learn-node/
@@ -38,6 +48,6 @@ app.use((err, req, res, next) => {
 
 //Sets up the website to run on Port 3000 (You can choose a number of different
 //ports).
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000!')
+app.listen(5000, () => {
+    console.log('The application is running on localhost:5000!')
 });
