@@ -2,7 +2,7 @@
 const express = require('express');
 
 const path = require('path');
-
+var port = process.env.PORT || 8080;
 
 //A top-level function exported by the express module
 //Adapted from: https://freshman.tech/learn-node/
@@ -41,6 +41,6 @@ app.use((err, req, res, next) => {
 
 //Sets up the website to run on Port 3000 (You can choose a number of different
 //ports).
-app.listen(5000, () => {
-    console.log('The application is running on localhost:5000!')
+app.listen(port, () => {
+    console.log('The application is running on localhost:' + port)
 });
