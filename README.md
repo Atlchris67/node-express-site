@@ -5,3 +5,6 @@ A gorgeous portfolio site to showcase the projects I have built or worked on. Th
 A JSON file is used to store infrmation and all the data about the projects.
 
 I used Pug to with provided templates that utilize the JSON to generate the markup that is ultimately displayed in the browser.
+
+You can pull and run locally on port 8080. Alternatively you can view the application running on [Heroku]( at )https://still-tundra-72390.herokuapp.com/).
+  
